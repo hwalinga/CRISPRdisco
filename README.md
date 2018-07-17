@@ -1,5 +1,7 @@
 # Welcome to CRISPRdisco
 
+CURRENTLY UNDER DEVELOPMENT
+
 This fork is intended to upgrade the program to Python 3, include improvements on the type analysis, and include better parallelization. I do not intend to maintain the ability to use this as a docker image and encourage manual installation as a python package, including manual installation of all the binaries. 
 
 CRISPRdisco (CRISPR discovery) will identify CRISPR repeat-spacer arrays and *cas* genes in genome data sets.  The input requirements are a csv file with a column called 'Path' that is the full path to the location of your genomes of interest. If the genomes are located in the same directory as the input csv, the path is not required and you can simply use the basename of the files.
