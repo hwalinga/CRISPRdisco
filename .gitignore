@@ -1,9 +1,10 @@
 .ipynb_checkpoints/
 *.egg-info
 *.eggs
+*.egg
 *.py[cod]
 **__pycache__/
 .cache
-
+*.bak
 test/temp_test_output
 test/test_output/*.*
